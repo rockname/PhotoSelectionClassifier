@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF451CF826B6A0DD00FC3346 /* PhotoSelectionClassifierApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF451CF726B6A0DD00FC3346 /* PhotoSelectionClassifierApp.swift */; };
+		DF451CFA26B6A0DD00FC3346 /* AlbumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF451CF926B6A0DD00FC3346 /* AlbumView.swift */; };
+		DF451CFC26B6A0DF00FC3346 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF451CFB26B6A0DF00FC3346 /* Assets.xcassets */; };
+		DF451CFF26B6A0DF00FC3346 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF451CFE26B6A0DF00FC3346 /* Preview Assets.xcassets */; };
+		DF451D0126B6A0DF00FC3346 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF451D0026B6A0DF00FC3346 /* Persistence.swift */; };
+		DF451D0426B6A0DF00FC3346 /* PhotoSelectionClassifier.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF451D0226B6A0DF00FC3346 /* PhotoSelectionClassifier.xcdatamodeld */; };
+		DF451D1326B6A19200FC3346 /* AlbumViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF451D0F26B6A19200FC3346 /* AlbumViewModel.swift */; };
+		DF451D1426B6A19200FC3346 /* PhotoGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF451D1026B6A19200FC3346 /* PhotoGridViewModel.swift */; };
+		DF451D1526B6A19200FC3346 /* PhotoPickerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF451D1126B6A19200FC3346 /* PhotoPickerViewModel.swift */; };
+		DF451D1626B6A19200FC3346 /* AlbumGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF451D1226B6A19200FC3346 /* AlbumGridViewModel.swift */; };
+		DF451D1A26B6A1A900FC3346 /* AlbumGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF451D1726B6A1A900FC3346 /* AlbumGridView.swift */; };
+		DF451D1B26B6A1A900FC3346 /* PhotoGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF451D1826B6A1A900FC3346 /* PhotoGridView.swift */; };
+		DF451D1C26B6A1A900FC3346 /* PhotoPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF451D1926B6A1A900FC3346 /* PhotoPickerView.swift */; };
+		DF451D2026B6A1B200FC3346 /* PhotoRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF451D1E26B6A1B200FC3346 /* PhotoRepository.swift */; };
+		DF451D2126B6A1B200FC3346 /* AlbumPhotoRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF451D1F26B6A1B200FC3346 /* AlbumPhotoRepository.swift */; };
+		DF451D2626B6A1B900FC3346 /* PhotoSelectionTrainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF451D2326B6A1B900FC3346 /* PhotoSelectionTrainer.swift */; };
+		DF451D2726B6A1B900FC3346 /* PhotoSelectionClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF451D2426B6A1B900FC3346 /* PhotoSelectionClassifier.swift */; };
+		DF451D2826B6A1B900FC3346 /* PhotoSelectionClassifierFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF451D2526B6A1B900FC3346 /* PhotoSelectionClassifierFileManager.swift */; };
+		DF451D2D26B6A1C000FC3346 /* PhotoSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF451D2A26B6A1C000FC3346 /* PhotoSelection.swift */; };
+		DF451D2E26B6A1C000FC3346 /* AlbumPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF451D2B26B6A1C000FC3346 /* AlbumPhoto.swift */; };
+		DF451D2F26B6A1C000FC3346 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF451D2C26B6A1C000FC3346 /* Photo.swift */; };
+		DF451D3326B6A1C700FC3346 /* ImageClassifierTrainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF451D3126B6A1C600FC3346 /* ImageClassifierTrainer.swift */; };
+		DF451D3426B6A1C700FC3346 /* PhotoImageRequester.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF451D3226B6A1C600FC3346 /* PhotoImageRequester.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DF451CF426B6A0DD00FC3346 /* PhotoSelectionClassifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoSelectionClassifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF451CF726B6A0DD00FC3346 /* PhotoSelectionClassifierApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSelectionClassifierApp.swift; sourceTree = "<group>"; };
+		DF451CF926B6A0DD00FC3346 /* AlbumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumView.swift; sourceTree = "<group>"; };
+		DF451CFB26B6A0DF00FC3346 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF451CFE26B6A0DF00FC3346 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DF451D0026B6A0DF00FC3346 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		DF451D0326B6A0DF00FC3346 /* PhotoSelectionClassifier.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PhotoSelectionClassifier.xcdatamodel; sourceTree = "<group>"; };
+		DF451D0F26B6A19200FC3346 /* AlbumViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumViewModel.swift; sourceTree = "<group>"; };
+		DF451D1026B6A19200FC3346 /* PhotoGridViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoGridViewModel.swift; sourceTree = "<group>"; };
+		DF451D1126B6A19200FC3346 /* PhotoPickerViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoPickerViewModel.swift; sourceTree = "<group>"; };
+		DF451D1226B6A19200FC3346 /* AlbumGridViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumGridViewModel.swift; sourceTree = "<group>"; };
+		DF451D1726B6A1A900FC3346 /* AlbumGridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumGridView.swift; sourceTree = "<group>"; };
+		DF451D1826B6A1A900FC3346 /* PhotoGridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoGridView.swift; sourceTree = "<group>"; };
+		DF451D1926B6A1A900FC3346 /* PhotoPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoPickerView.swift; sourceTree = "<group>"; };
+		DF451D1E26B6A1B200FC3346 /* PhotoRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoRepository.swift; sourceTree = "<group>"; };
+		DF451D1F26B6A1B200FC3346 /* AlbumPhotoRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumPhotoRepository.swift; sourceTree = "<group>"; };
+		DF451D2326B6A1B900FC3346 /* PhotoSelectionTrainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoSelectionTrainer.swift; sourceTree = "<group>"; };
+		DF451D2426B6A1B900FC3346 /* PhotoSelectionClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoSelectionClassifier.swift; sourceTree = "<group>"; };
+		DF451D2526B6A1B900FC3346 /* PhotoSelectionClassifierFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoSelectionClassifierFileManager.swift; sourceTree = "<group>"; };
+		DF451D2A26B6A1C000FC3346 /* PhotoSelection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoSelection.swift; sourceTree = "<group>"; };
+		DF451D2B26B6A1C000FC3346 /* AlbumPhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumPhoto.swift; sourceTree = "<group>"; };
+		DF451D2C26B6A1C000FC3346 /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		DF451D3126B6A1C600FC3346 /* ImageClassifierTrainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageClassifierTrainer.swift; sourceTree = "<group>"; };
+		DF451D3226B6A1C600FC3346 /* PhotoImageRequester.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoImageRequester.swift; sourceTree = "<group>"; };
+		DF451D3526B6A3C200FC3346 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF451CF126B6A0DD00FC3346 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF451CEB26B6A0DD00FC3346 = {
+			isa = PBXGroup;
+			children = (
+				DF451CF626B6A0DD00FC3346 /* PhotoSelectionClassifier */,
+				DF451CF526B6A0DD00FC3346 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF451CF526B6A0DD00FC3346 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF451CF426B6A0DD00FC3346 /* PhotoSelectionClassifier.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF451CF626B6A0DD00FC3346 /* PhotoSelectionClassifier */ = {
+			isa = PBXGroup;
+			children = (
+				DF451D3526B6A3C200FC3346 /* Info.plist */,
+				DF451D0A26B6A13700FC3346 /* Resources */,
+				DF451D0C26B6A15800FC3346 /* Application */,
+				DF451D0D26B6A16200FC3346 /* Views */,
+				DF451D0E26B6A19200FC3346 /* ViewModels */,
+				DF451D1D26B6A1B200FC3346 /* Repositories */,
+				DF451D2226B6A1B900FC3346 /* Services */,
+				DF451D2926B6A1C000FC3346 /* Entities */,
+				DF451D3026B6A1C600FC3346 /* Utilities */,
+				DF451D0B26B6A14600FC3346 /* CoreData */,
+				DF451CFD26B6A0DF00FC3346 /* Preview Content */,
+			);
+			path = PhotoSelectionClassifier;
+			sourceTree = "<group>";
+		};
+		DF451CFD26B6A0DF00FC3346 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DF451CFE26B6A0DF00FC3346 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DF451D0A26B6A13700FC3346 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DF451CFB26B6A0DF00FC3346 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DF451D0B26B6A14600FC3346 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				DF451D0026B6A0DF00FC3346 /* Persistence.swift */,
+				DF451D0226B6A0DF00FC3346 /* PhotoSelectionClassifier.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		DF451D0C26B6A15800FC3346 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				DF451CF726B6A0DD00FC3346 /* PhotoSelectionClassifierApp.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		DF451D0D26B6A16200FC3346 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DF451CF926B6A0DD00FC3346 /* AlbumView.swift */,
+				DF451D1726B6A1A900FC3346 /* AlbumGridView.swift */,
+				DF451D1926B6A1A900FC3346 /* PhotoPickerView.swift */,
+				DF451D1826B6A1A900FC3346 /* PhotoGridView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DF451D0E26B6A19200FC3346 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				DF451D0F26B6A19200FC3346 /* AlbumViewModel.swift */,
+				DF451D1226B6A19200FC3346 /* AlbumGridViewModel.swift */,
+				DF451D1126B6A19200FC3346 /* PhotoPickerViewModel.swift */,
+				DF451D1026B6A19200FC3346 /* PhotoGridViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		DF451D1D26B6A1B200FC3346 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				DF451D1E26B6A1B200FC3346 /* PhotoRepository.swift */,
+				DF451D1F26B6A1B200FC3346 /* AlbumPhotoRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		DF451D2226B6A1B900FC3346 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				DF451D2326B6A1B900FC3346 /* PhotoSelectionTrainer.swift */,
+				DF451D2426B6A1B900FC3346 /* PhotoSelectionClassifier.swift */,
+				DF451D2526B6A1B900FC3346 /* PhotoSelectionClassifierFileManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		DF451D2926B6A1C000FC3346 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				DF451D2A26B6A1C000FC3346 /* PhotoSelection.swift */,
+				DF451D2B26B6A1C000FC3346 /* AlbumPhoto.swift */,
+				DF451D2C26B6A1C000FC3346 /* Photo.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		DF451D3026B6A1C600FC3346 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				DF451D3126B6A1C600FC3346 /* ImageClassifierTrainer.swift */,
+				DF451D3226B6A1C600FC3346 /* PhotoImageRequester.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF451CF326B6A0DD00FC3346 /* PhotoSelectionClassifier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF451D0726B6A0DF00FC3346 /* Build configuration list for PBXNativeTarget "PhotoSelectionClassifier" */;
+			buildPhases = (
+				DF451CF026B6A0DD00FC3346 /* Sources */,
+				DF451CF126B6A0DD00FC3346 /* Frameworks */,
+				DF451CF226B6A0DD00FC3346 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoSelectionClassifier;
+			productName = PhotoSelectionClassifier;
+			productReference = DF451CF426B6A0DD00FC3346 /* PhotoSelectionClassifier.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF451CEC26B6A0DD00FC3346 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					DF451CF326B6A0DD00FC3346 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = DF451CEF26B6A0DD00FC3346 /* Build configuration list for PBXProject "PhotoSelectionClassifier" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF451CEB26B6A0DD00FC3346;
+			productRefGroup = DF451CF526B6A0DD00FC3346 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF451CF326B6A0DD00FC3346 /* PhotoSelectionClassifier */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF451CF226B6A0DD00FC3346 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF451CFF26B6A0DF00FC3346 /* Preview Assets.xcassets in Resources */,
+				DF451CFC26B6A0DF00FC3346 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF451CF026B6A0DD00FC3346 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF451D0126B6A0DF00FC3346 /* Persistence.swift in Sources */,
+				DF451D1B26B6A1A900FC3346 /* PhotoGridView.swift in Sources */,
+				DF451D1C26B6A1A900FC3346 /* PhotoPickerView.swift in Sources */,
+				DF451D1426B6A19200FC3346 /* PhotoGridViewModel.swift in Sources */,
+				DF451D2826B6A1B900FC3346 /* PhotoSelectionClassifierFileManager.swift in Sources */,
+				DF451CFA26B6A0DD00FC3346 /* AlbumView.swift in Sources */,
+				DF451D2E26B6A1C000FC3346 /* AlbumPhoto.swift in Sources */,
+				DF451D2D26B6A1C000FC3346 /* PhotoSelection.swift in Sources */,
+				DF451D0426B6A0DF00FC3346 /* PhotoSelectionClassifier.xcdatamodeld in Sources */,
+				DF451D1526B6A19200FC3346 /* PhotoPickerViewModel.swift in Sources */,
+				DF451D1326B6A19200FC3346 /* AlbumViewModel.swift in Sources */,
+				DF451D1626B6A19200FC3346 /* AlbumGridViewModel.swift in Sources */,
+				DF451D3326B6A1C700FC3346 /* ImageClassifierTrainer.swift in Sources */,
+				DF451D2F26B6A1C000FC3346 /* Photo.swift in Sources */,
+				DF451D2726B6A1B900FC3346 /* PhotoSelectionClassifier.swift in Sources */,
+				DF451D2126B6A1B200FC3346 /* AlbumPhotoRepository.swift in Sources */,
+				DF451CF826B6A0DD00FC3346 /* PhotoSelectionClassifierApp.swift in Sources */,
+				DF451D2626B6A1B900FC3346 /* PhotoSelectionTrainer.swift in Sources */,
+				DF451D2026B6A1B200FC3346 /* PhotoRepository.swift in Sources */,
+				DF451D1A26B6A1A900FC3346 /* AlbumGridView.swift in Sources */,
+				DF451D3426B6A1C700FC3346 /* PhotoImageRequester.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DF451D0526B6A0DF00FC3346 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF451D0626B6A0DF00FC3346 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF451D0826B6A0DF00FC3346 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PhotoSelectionClassifier/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PhotoSelectionClassifier/Info.plist;
+				INFOPLIST_KEY_CFBundleExecutable = PhotoSelectionClassifier;
+				INFOPLIST_KEY_CFBundleName = PhotoSelectionClassifier;
+				INFOPLIST_KEY_CFBundleVersion = 1;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rockname.PhotoSelectionClassifier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF451D0926B6A0DF00FC3346 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PhotoSelectionClassifier/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PhotoSelectionClassifier/Info.plist;
+				INFOPLIST_KEY_CFBundleExecutable = PhotoSelectionClassifier;
+				INFOPLIST_KEY_CFBundleName = PhotoSelectionClassifier;
+				INFOPLIST_KEY_CFBundleVersion = 1;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rockname.PhotoSelectionClassifier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF451CEF26B6A0DD00FC3346 /* Build configuration list for PBXProject "PhotoSelectionClassifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF451D0526B6A0DF00FC3346 /* Debug */,
+				DF451D0626B6A0DF00FC3346 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF451D0726B6A0DF00FC3346 /* Build configuration list for PBXNativeTarget "PhotoSelectionClassifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF451D0826B6A0DF00FC3346 /* Debug */,
+				DF451D0926B6A0DF00FC3346 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DF451D0226B6A0DF00FC3346 /* PhotoSelectionClassifier.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DF451D0326B6A0DF00FC3346 /* PhotoSelectionClassifier.xcdatamodel */,
+			);
+			currentVersion = DF451D0326B6A0DF00FC3346 /* PhotoSelectionClassifier.xcdatamodel */;
+			path = PhotoSelectionClassifier.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DF451CEC26B6A0DD00FC3346 /* Project object */;
+}
