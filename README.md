@@ -16,7 +16,7 @@ As a result, a trained photo selection classifier auto-selects hamburger photos.
 - iOS 15.0+
 
 ### Important
-**It can only be built on an actual device equipped with a neural engine of iPhone X or later because of CreateML framework.**
+**It can only be built on an actual device (not simulator) because of CreateML framework.**
 
 ## Sequence Diagram
 
